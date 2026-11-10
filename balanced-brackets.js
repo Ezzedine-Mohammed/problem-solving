@@ -65,9 +65,6 @@ function isBalanced(str) {
   return newStrOpen.length === 0;
 }
 
-// console.log(isBalanced(`hello`));
-// console.log("[hello".slice(0, -1));
-
 // Tests
 console.log(isBalanced("{[()]}")); // true
 console.log(isBalanced("a(b[c]d)e")); // true
