@@ -1,72 +1,72 @@
 # JavaScript Problem Solving 🧩
 
-هذا المستودع يوثّق رحلة تعلّمي وتطوري في **Problem Solving** باستخدام **JavaScript**، تمرينًا بعد تمرين.
+This repository documents my journey of learning and improving at **Problem Solving** with **JavaScript**, one exercise at a time.
 
 ---
 
-## 💡 لماذا أتعلم هذه المهارة؟
+## 💡 Why am I learning this skill?
 
-لا أهدف إلى حفظ حلول جاهزة. هدفي أن أغيّر طريقة تفكيري وأنا أكتب الكود:
+My goal isn't to memorize ready-made solutions. I want to change the way I think while writing code:
 
-- **تنظيم الكود:** أن أكتب حلولًا واضحة ومرتبة يسهل قراءتها وتعديلها.
-- **التفكير من أكثر من زاوية:** ألّا أكتفي بأول حل يخطر لي، بل أبحث عن طرق مختلفة لحل المشكلة نفسها.
-- **البحث عن الحل الأفضل:** أن أقارن الحلول من ناحية **Time Complexity** و**Space Complexity**، وأفهم سبب تفوّق حل على آخر.
-- **فهم هياكل البيانات (Data Structures):** أن أتعامل بشكل أفضل مع `Array` و`Object` و`Map` و`Set` وغيرها، وأعرف مميزات كل منها ومتى أستخدمه.
-
----
-
-## 🔄 طريقة المتابعة
-
-أتدرب من خلال **مهمة دورية مع Claude** تسير بهذا الترتيب:
-
-1. **يُرسَل التمرين:** يرسل لي Claude تمرينًا جديدًا مع وصفه وشروطه وأمثلته، بدون أي تلميحات.
-2. **التحليل أولًا:** أحلل المسألة وأشرح منطقي في الحل قبل كتابة أي سطر كود.
-3. **كتابة الكود:** أكتب الحل بنفسي وأرسله.
-4. **المراجعة معًا:** نراجع الحل من ناحية الصحة والحالات الحدّية (Edge Cases) والتعقيد.
-5. **اكتشاف الخطأ بنفسي:** إذا كان في الحل خطأ، يرسل لي Claude **المدخل الذي ظهر فيه الخطأ فقط**، وأكتشف أنا سببه وأصلحه.
-6. **الوصول إلى أفضل حل:** نستمر في المراجعة والتحسين حتى نصل إلى أفضل حل ممكن.
-
-لا يُرفع أي تمرين إلى هذا المستودع إلا بعد أن تؤكد المراجعة أن حلّه صحيح.
+- **Organizing code:** Writing clear, well-structured solutions that are easy to read and modify.
+- **Thinking from more than one angle:** Not settling for the first solution that comes to mind, but looking for different ways to solve the same problem.
+- **Looking for the best solution:** Comparing solutions in terms of **Time Complexity** and **Space Complexity**, and understanding why one solution is better than another.
+- **Understanding Data Structures:** Getting better at working with `Array`, `Object`, `Map`, `Set` and others, and knowing the strengths of each one and when to use it.
 
 ---
 
-## 📅 نظام الرفع والاستمرارية
+## 🔄 How I train
 
-لا يتوفر لي في هذه الفترة وقت كافٍ للتركيز الكامل على تطوير المهارة، لكني لا أريد التخلي عنها. لذلك اعتمدت نظامًا خفيفًا ومستمرًا:
+I train through a **recurring task with Claude** that follows this order:
 
-- **تمرين واحد كل يومين كحد أدنى.**
-- **اليوم الذي يلي حلّ أي تمرين يوم إجازة** من التدريب.
-- لا يُرسَل تمرين جديد قبل إنهاء التمرين الحالي ومراجعته.
+1. **The exercise is sent:** Claude sends me a new exercise with its description, conditions and examples, without any hints.
+2. **Analysis first:** I analyze the problem and explain my logic before writing a single line of code.
+3. **Writing the code:** I write the solution myself and send it.
+4. **Reviewing together:** We review the solution for correctness, Edge Cases and complexity.
+5. **Finding the bug myself:** If the solution has a bug, Claude sends me **only the input where it fails**, and I find the cause and fix it myself.
+6. **Reaching the best solution:** We keep reviewing and improving until we reach the best possible solution.
 
----
-
-## 📈 المستوى والتطور
-
-- **الذكاء الاصطناعي** يحدد مستوى كل تمرين ومستواي الحالي.
-- بناءً على ذلك يقترح تماريني القادمة ودرجة صعوبتها (Easy / Medium / Hard).
-- يتدرج في الصعوبة، وينوّع الموضوعات: Arrays، Strings، Hash Maps، Sets، Two Pointers، Sliding Window، Prefix Sum، Sorting، Intervals، Recursion...
+No exercise is uploaded to this repository until the review confirms its solution is correct.
 
 ---
 
-## 📄 تنسيق الملفات
+## 📅 Upload schedule and consistency
 
-كل ملف `.js` في المستودع يمثل تمرينًا واحدًا، ويحتوي على:
+Right now I don't have enough time to fully focus on developing this skill, but I don't want to give it up. So I set up a light and consistent system:
 
-1. **وصف التمرين** والمشكلة المطلوب حلها.
-2. **الشروط** الخاصة بالحل.
-3. **أمثلة** مع الإجابة المتوقعة لكل مثال.
-4. **الحل** الذي كتبته.
-5. **حالات اختبار** في نهاية الملف.
+- **At least one exercise every two days.**
+- **The day after solving any exercise is a rest day** from training.
+- No new exercise is sent before the current one is finished and reviewed.
+
+---
+
+## 📈 Level and progress
+
+- **AI** determines the level of each exercise and my current level.
+- Based on that, it suggests my next exercises and their difficulty (Easy / Medium / Hard).
+- It increases the difficulty gradually and varies the topics: Arrays, Strings, Hash Maps, Sets, Two Pointers, Sliding Window, Prefix Sum, Sorting, Intervals, Recursion...
+
+---
+
+## 📄 File format
+
+Each `.js` file in the repository represents one exercise and contains:
+
+1. **The exercise description** and the problem to solve.
+2. **The conditions** for the solution.
+3. **Examples** with the expected output for each one.
+4. **The solution** I wrote.
+5. **Test cases** at the end of the file.
 
 ```js
-// اسم التمرين
+// Exercise name
 
-// وصف المسألة: ...
+// Problem description: ...
 
 // Example 1:
 // input → expected output
 
-// الشروط: ...
+// Conditions: ...
 
 function solution(input) {
   // ...
